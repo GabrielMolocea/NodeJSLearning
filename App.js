@@ -1,15 +1,10 @@
-const amount = 10
+// Modules
 
-if (amount < 9) {
-    console.log('====================================');
-    console.log('small number');
-    console.log('====================================');
-} else {
-    console.log('====================================');
-    console.log('big number');
-    console.log('====================================');
-}
+const names = require('./names')
+const sayHi = require('./utils')
+require('./nimdGrenade')
 
-console.log('====================================');
-console.log(`Learning Node JS!!`);
-console.log('====================================');
+
+// sayHi('sam')
+// sayHi(names.john)
+// sayHi(names.peter)
