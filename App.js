@@ -1,15 +1,12 @@
-const amount = 10
+// Modules
 
-if (amount < 9) {
-    console.log('====================================');
-    console.log('small number');
-    console.log('====================================');
-} else {
-    console.log('====================================');
-    console.log('big number');
-    console.log('====================================');
+const john = 'john'
+const peter = 'peter'
+
+const sayHi = (name) => {
+    console.log(`Hello there ${name}`);
 }
 
-console.log('====================================');
-console.log(`Learning Node JS!!`);
-console.log('====================================');
+sayHi('sam')
+sayHi(john)
+sayHi(peter)
